@@ -428,7 +428,6 @@ class CarState(CarStateBase):
 
   def get_can_parser_canfd(self, CP):
     messages = [
-      (self.gear_msg_canfd, 100),
       (self.accelerator_msg_canfd, 100),
       ("WHEEL_SPEEDS", 100),
       ("STEERING_SENSORS", 100),
